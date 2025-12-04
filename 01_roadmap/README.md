@@ -204,3 +204,152 @@ mindmap
       Workflow 构建
       数据可视化
       文献与写作
+
+```mermaid
+mindmap
+  root((计算化学<br/>学习路线))
+    Math("1. 数学基础<br/>Mathematics")
+      线性代数
+        特征值与对角化
+        矩阵分解 SVD/QR
+      微积分
+        多元微分 Gradient/Hessian
+        多重积分
+      概率与统计
+        MCMC
+        统计推断
+      PDE与数值分析
+        薛定谔方程结构
+        优化算法 GD/BFGS
+        迭代求解 CG/GMRES
+    CS("2. 编程与CS<br/>Programming")
+      Python生态
+        Numpy/Scipy
+        RDKit/ASE
+      HPC基础
+        Slurm/LSF
+        MPI/CUDA
+        Linux/Shell
+      核心语言
+        C/C++
+        Fortran
+      AI框架
+        PyTorch/GNN
+    Theory("3. 化学物理<br/>Foundations")
+      量子力学
+        HF/DFT/波函数
+      统计力学
+        系综/配分函数
+        自由能理论
+      固体与材料
+        晶体学/能带
+    Methods("4. 核心方法<br/>Methods")
+      电子结构 QC
+        DFT/Post-HF
+        激发态/多参考
+      分子动力学 MD
+        平衡与生产
+        马尔科夫模型 MSM
+      增强采样 & 自由能
+        MetaD/Umbrella
+        FEP/TI/BAR
+      QM/MM与力场
+    Fields("5. 研究方向<br/>Subfields")
+      药物设计 CADD
+        对接/虚拟筛选/FEP
+      材料计算
+        催化/电池/VASP
+      化学机器学习
+        GNN/ML力场
+        生成模型
+      反应机理
+        TS搜索/反应网络
+    Skills("6. 实战技能<br/>Skills")
+      工作流 Workflow
+      数据可视化
+      文献与写作
+```
+
+# 🧪 Ultimate Computational Chemistry Roadmap
+
+<details>
+<summary><b>1. 数学基础 (Mathematics)</b></summary>
+
+* **线性代数（核心）**
+    * 特征值问题、对角化、正交化
+    * 矩阵分解（SVD, QR）
+* **微积分**
+    * 多元微分（梯度、Hessian）
+    * 多重积分（统计力学核心）
+* **概率论与统计**
+    * 分布、采样、统计推断
+    * MCMC 与统计加速
+* **数值分析（科研必备）**
+    * 数值优化（GD / BFGS / L-BFGS）
+    * 线性系统的迭代求解（CG / GMRES）
+    * 稳定性分析
+* **其他**
+    * 偏微分方程 (薛定谔方程结构)
+    * 群论 (对称性) / 图论
+</details>
+
+<details>
+<summary><b>2. 编程与计算机科学 (Programming & CS)</b></summary>
+
+* **Python（科研主语言）**
+    * `numpy` / `scipy` / `matplotlib`
+    * `RDKit` (SMILES、分子指纹)
+    * `ASE` / `MDAnalysis`
+* **高性能计算 (HPC)**
+    * Slurm / LSF 作业管理
+    * GPU/CUDA、MPI 多节点并行
+    * Shell / Bash 脚本
+* **其他语言**
+    * C/C++ (高性能核心)
+    * Fortran (量化软件遗留)
+* **机器学习框架**
+    * PyTorch / PyTorch Geometric (GNN)
+</details>
+
+<details>
+<summary><b>3. 化学与物理基础 (Foundations)</b></summary>
+
+* **量子力学**：波函数、HF 近似、DFT (泛函/基组)
+* **统计力学**：系综 (NVT/NPT)、配分函数、自由能理论
+* **其他**：热力学、晶体学、分子光谱
+</details>
+
+<details>
+<summary><b>4. 核心计算方法 (Core Methods)</b></summary>
+
+* **4.1 电子结构 (Quantum Chemistry)**
+    * HF / MP2 / CCSD(T)
+    * DFT (GGA / Hybrid) / TD-DFT
+    * 过渡态搜索 (TS) / IRC
+* **4.2 分子动力学 (MD)**
+    * AMBER / GROMACS / OpenMM
+    * 温控/压控/PME
+    * 分析：RMSD/H-bond/MSM
+* **4.3 增强采样 & 自由能**
+    * Metadynamics / Umbrella Sampling
+    * FEP / TI / BAR / WHAM
+* **4.4 其他**
+    * 分子力场 (FF) 参数化
+    * QM/MM 混合计算
+</details>
+
+<details>
+<summary><b>5. 研究分支 (Specializations)</b></summary>
+
+* 💊 **计算药物设计 (CADD)**: 分子对接、虚拟筛选、ADMET、AI 生成 (DiffDock)
+* 🔋 **材料计算**: VASP/CP2K、能带/DOS、催化 (NEB/d-band)、电池材料
+* 🤖 **化学机器学习**: GNN、ML 力场 (DeepMD/ANI)、分子生成
+* ⚗️ **反应网络**: 自动化机理探索 (autodE)
+</details>
+
+<details>
+<summary><b>6. 实战与科研技能 (Skills)</b></summary>
+
+* **技术栈**: Workflow (Snakemake), 环境管理 (Conda), 高级绘图
+* **软技能**: 文献精读、JACS/Nature 风格写作、可重复性研究
+</details>
