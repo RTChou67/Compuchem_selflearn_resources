@@ -1,6 +1,6 @@
 # Roadmap
 
-本目录提供计算化学的系统学习路线图，帮助初学者按层级（基础 → 入门 → 进阶）和方向（如药物设计、材料计算、量子化学等）逐步构建知识结构。
+这里提供了计算化学的系统学习路线图，帮助大家按按照学科和方向（如药物设计、材料计算、量子化学等）逐步构建知识体系。
 
 ## Computational Chemistry Roadmap (Mindmap)
 
@@ -70,10 +70,6 @@ mindmap
       文献与写作
 ```
 
-
-
-
-
 <details>
 <summary><b>📐 1. 数学基础 (Mathematics for Computational Chemistry)</b></summary>
 <br>
@@ -89,7 +85,7 @@ mindmap
     * MCMC 与统计加速
 * **偏微分方程 PDE**
     * 薛定谔方程的数学结构
-* **数值分析（科研必备）**
+* **数值分析**
     * 数值优化（GD / BFGS / L-BFGS）
     * 数值积分
     * 线性系统的迭代求解（CG / GMRES）
@@ -110,7 +106,7 @@ mindmap
     * `ASE` / `MDAnalysis`
     * `PyMol` / `VMD` Python API
 * **核心语言**
-    * C/C++（高性能计算不可绕过）
+    * C/C++（高性能计）
     * Fortran（量化软件核心语言）
 * **Shell / Bash 脚本**
 * **环境管理**
@@ -138,8 +134,8 @@ mindmap
     * 配分函数 → 热力学量
     * 自由能理论（FE）
 * **热力学基础**
-* **晶体学 & 固体物理（材料方向）**
-* **分子光谱学（选修）**
+* **晶体学 & 固体物理**
+* **分子光谱学**
 
 </details>
 
@@ -243,3 +239,16 @@ mindmap
 * **可重复性**（Reproducibility Standards）
 
 </details>
+
+## Summary of Computational Chemistry Method and Application
+
+<!-- Styled figure: responsive width, rounded corners, subtle shadow, and softer caption -->
+<div style="text-align:center; margin:1.25rem 0 1.75rem;">
+  <p style="color:#555; margin:0 0 0.6rem; font-size:0.98rem;">A high-level overview of methods and applications in computational chemistry / 计算化学方法与应用概览</p>
+  <figure style="display:inline-block; margin:0;">
+    <img src="./compuchem_method_and_application.svg" alt="Compuchem method and application" style="width:84%; max-width:920px; height:auto; border-radius:10px; box-shadow:0 12px 30px rgba(0,0,0,0.12); border:1px solid rgba(0,0,0,0.06);" />
+    <figcaption style="text-align:center; color:#666; font-size:0.92rem; margin-top:0.5rem;">
+      <strong>Figure.</strong> Computational chemistry methods and applications — 计算化学方法与应用
+    </figcaption>
+  </figure>
+</div>
